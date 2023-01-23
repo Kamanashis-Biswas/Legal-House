@@ -1,0 +1,40 @@
+.banner-section {
+    background-image: url('./images/banner.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 120px;
+}
+
+.section-title {
+    font-family: 'EB Garamond', serif;
+    font-weight: 800;
+    font-size: 40px;
+}
+.section-sub-title{
+    font-family: 'EB Garamond', serif;
+    font-weight: 800;
+    font-size: 32px;
+}
+
+
+.section-description {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+    margin-bottom: 64px;
+}
+
+.bannar-title {
+    font-size: 72px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 800;
+}
+
+.banner-sub-title{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #E7E7E7;
+}
