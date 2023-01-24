@@ -75,3 +75,20 @@ margin-bottom: 24px;
 .faq-section{
     margin-bottom: 120px;
 }
+
+.footer-title{
+    font-family: 'EB Garamond', serif;
+}
+
+.footer-description{
+    font-family: 'Poppins', sans-serif;
+}
+
+.primary-color{
+    font-family: 'EB Garamond';
+    color: #FFFFFF;
+}
+
+.secondary-color{
+color: #CFCFCF;;
+}
