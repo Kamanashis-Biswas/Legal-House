@@ -11,7 +11,8 @@
     font-weight: 800;
     font-size: 40px;
 }
-.section-sub-title{
+
+.section-sub-title {
     font-family: 'EB Garamond', serif;
     font-weight: 800;
     font-size: 32px;
@@ -32,21 +33,21 @@
     font-weight: 800;
 }
 
-.banner-sub-title{
-        font-family: 'Poppins', sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        color: #E7E7E7;
+.banner-sub-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #E7E7E7;
 }
 
-.practices-section{
+.practices-section {
     margin-bottom: 120px;
 }
 
-.carousel-man{
-width: 70px;
-height: 70px;
-margin-bottom: 24px;
+.carousel-man {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 24px;
 }
 
 .carousel-section-caption {
@@ -56,62 +57,64 @@ margin-bottom: 24px;
     left: 15%;
     color: #FFFFFF;
     text-align: center;
-    
+
 }
-.carousal-man-name{
+
+.carousal-man-name {
     font-family: 'EB Garamond', serif;
 }
 
-.client-section{
+.client-section {
     margin-bottom: 120px;
 }
 
-.accordion-heading{
+.accordion-heading {
     font-family: 'EB Garamond', serif;
     font-size: 24;
     font-weight: 800;
 }
 
-.faq-section{
+.faq-section {
     margin-bottom: 120px;
 }
 
-.title-color{
+.title-color {
     color: #414040;
 }
 
-.description-color{
+.description-color {
     color: #707070;
 }
 
-.font-primary{
+.font-primary {
     font-family: 'EB Garamond', serif;
     font-weight: 800;
 }
 
-.font-secondary{
+.font-secondary {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
 
-.contact-us-img{
+.contact-us-img {
     width: 40px;
     height: 40px;
 }
 
-.card-background{
+.card-background {
     background-color: #F3F3F3;
 }
 
-.footer-info-color{
+.footer-info-color {
     color: #CFCFCF;
 }
 
-.contact input{
-height: 100%;
+.contact input {
+    height: 100%;
 }
 
-.contact input[type="text"], input[type="email"]{
+.contact input[type="text"],
+input[type="email"] {
     margin-bottom: 24px;
     border: none;
     width: 100%;
@@ -120,7 +123,8 @@ height: 100%;
     border-radius: 8px;
     padding: 10px 30px;
 }
-textarea{
+
+textarea {
     margin-bottom: 24px;
     border: none;
     width: 100%;
@@ -129,9 +133,26 @@ textarea{
     padding: 12px 30px;
 }
 
-.submit{
+.submit {
     width: 100%;
     height: 72px;
     background-color: #B68C5A;
 }
 
+@media screen and (max-width: 576px) {
+
+    .banner-info,
+    .practices-section-info,
+    .client-section-info,
+    .faq-section-info,
+    .contact-us-info {
+        width: 90% !important;
+        padding: 0 10px;
+    }
+
+    .contact input {
+        margin-top: 20px;
+    }
+
+
+}
