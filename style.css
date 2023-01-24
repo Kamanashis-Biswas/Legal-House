@@ -76,19 +76,62 @@ margin-bottom: 24px;
     margin-bottom: 120px;
 }
 
-.footer-title{
+.title-color{
+    color: #414040;
+}
+
+.description-color{
+    color: #707070;
+}
+
+.font-primary{
     font-family: 'EB Garamond', serif;
+    font-weight: 800;
 }
 
-.footer-description{
+.font-secondary{
     font-family: 'Poppins', sans-serif;
+    font-weight: 400;
 }
 
-.primary-color{
-    font-family: 'EB Garamond';
-    color: #FFFFFF;
+.contact-us-img{
+    width: 40px;
+    height: 40px;
 }
 
-.secondary-color{
-color: #CFCFCF;;
+.card-background{
+    background-color: #F3F3F3;
 }
+
+.footer-info-color{
+    color: #CFCFCF;
+}
+
+.contact input{
+height: 100%;
+}
+
+.contact input[type="text"], input[type="email"]{
+    margin-bottom: 24px;
+    border: none;
+    width: 100%;
+    height: 72px;
+    background-color: #F3F3F3;
+    border-radius: 8px;
+    padding: 10px 30px;
+}
+textarea{
+    margin-bottom: 24px;
+    border: none;
+    width: 100%;
+    background-color: #F3F3F3;
+    border-radius: 8px;
+    padding: 12px 30px;
+}
+
+.submit{
+    width: 100%;
+    height: 72px;
+    background-color: #B68C5A;
+}
+
